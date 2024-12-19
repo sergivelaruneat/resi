@@ -1,0 +1,16 @@
+/* src/styles/Home.css */
+.home-container {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    background: linear-gradient(to right, #ffffff, #ffffff); /* Fondo degradado */
+    height: 100%;       /* Mantener la proporción de la imagen */
+  }
+  
+  .home-image {
+    max-width: 100%;    /* Evitar que la imagen sea más grande que el contenedor */
+    height: 100%;       /* Mantener la proporción de la imagen */
+    justify-content: left; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+  }
+  

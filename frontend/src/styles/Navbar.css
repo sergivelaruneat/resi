@@ -1,0 +1,44 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #6a7fda, #8ab9f5); /* Degradado de grises */
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.navbar .logo-link {
+    text-decoration: none; /* Asegura que no haya subrayado en el logo */
+  }
+  
+  .navbar .logo-image {
+    height: 70px; /* Tamaño del logo, ajusta como lo necesites */
+  }
+.navbar .nav-links {
+    display: flex;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .nav-links a,
+.navbar .nav-links button {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar .nav-links a:hover,
+.navbar .nav-links button:hover {
+    text-decoration: underline;
+}
